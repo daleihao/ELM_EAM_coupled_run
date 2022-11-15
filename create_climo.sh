@@ -26,7 +26,7 @@ export ENDYEAR=2014
 ncclimo \
 --case=${CASE_REF} \
 --jobs=1 \
---thr=1 \
+--thr=4 \
 --parallel=bck \
 --map=${MAPFILE} \
 --vars=FLDS \
