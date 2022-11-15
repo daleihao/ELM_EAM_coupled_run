@@ -7,7 +7,7 @@ param = CoreParameter()
 param.reference_data_path = '/compyfs/e3sm_diags_data/obs_for_e3sm_diags/climatology/'
 param.test_data_path = '/compyfs/haod776/e3sm_scratch/E3SM_couple/seasonal_output/'
 param.test_name = 'ELM_TOP_SNOW_PP_Koch_10years'
-param.seasons = ["ANN"]   #all seasons ["ANN","DJF", "MAM", "JJA", "SON"] will run,if comment out"
+param.seasons = ["ANN","DJF", "MAM", "JJA", "SON"]   #all seasons will run,if comment out"
 
 prefix = '/compyfs/www/haod776/doc_examples/'
 param.results_dir = os.path.join(prefix, 'lat_lon_demo')
