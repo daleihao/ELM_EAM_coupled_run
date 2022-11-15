@@ -34,5 +34,5 @@ ncclimo \
 --yr_end=${ENDYEAR} \
 --input=${RUNDIR}/${CASE_REF}/run \
 --output=${RUNDIR}/seasonal_output_15years/${CASE_REF} \
---drc_rgr=${RUNDIR}/seasonal_output_15years_regridd/${CASE_REF} \
+--drc_rgr=${RUNDIR}/seasonal_output_15years_regrid/${CASE_REF} \
 --prc_typ=${MODEL}
