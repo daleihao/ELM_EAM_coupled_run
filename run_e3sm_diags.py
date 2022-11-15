@@ -6,7 +6,6 @@ param = CoreParameter()
 
 param.reference_data_path = '/compyfs/e3sm_diags_data/obs_for_e3sm_diags/climatology/'
 param.ref_timeseries_input = False
-
 # Years to slice the ref data, base this off the years in the filenames.
 param.ref_start_yr = '2000'
 param.ref_end_yr   = '2014'
