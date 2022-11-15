@@ -8,3 +8,4 @@
 
 source /share/apps/E3SM/conda_envs/load_latest_e3sm_unified_compy.sh
 python run_e3sm_diags.py --multiprocessing --num_workers=32
+# check https://compy-dtn.pnl.gov/haod776/doc_examples/lat_lon_demo/viewer/index.html
