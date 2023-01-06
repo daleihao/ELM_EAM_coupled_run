@@ -12,8 +12,8 @@ module load intel/20.0.0
 module load intelmpi/2020 # Required for ncclimo/ncremap in MPI-mode
 module load netcdf/4.6.3
 
-export PATH="~zender/bin:${PATH}"
-export LD_LIBRARY_PATH="~zender/lib:${LD_LIBRARY_PATH}"
+export PATH="~zender/anaconda/bin:${PATH}"
+export LD_LIBRARY_PATH="~zender/anaconda/lib:${LD_LIBRARY_PATH}"
 
 export RUNDIR=/compyfs/haod776/e3sm_scratch/E3SM_couple
 export MAPFILE=/compyfs/inputdata/cpl/gridmaps/ne30pg2/map_ne30pg2_to_r05_mono.200220.nc
